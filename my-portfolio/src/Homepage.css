@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.google.com/imgres?q=galaxy%20background&imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F178149253%2Fphoto%2Fdeep-space-background.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3Dw1hb2H1C-blV918LoG9mGB02nJY6cLJpR5Szfg7sLqE%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblue-galaxy&docid=I4fc8fDh8Wn__M&tbnid=fH_b6kffTMatjM&vet=12ahUKEwiDvpmD1o6NAxWwU0EAHR5oKZMQM3oECGUQAA..i&w=612&h=408&hcb=2&ved=2ahUKEwiDvpmD1o6NAxWwU0EAHR5oKZMQM3oECGUQAA);
+}
