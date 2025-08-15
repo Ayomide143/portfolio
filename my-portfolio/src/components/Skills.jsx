@@ -16,6 +16,7 @@ import {
   SiMongodb,
   SiSocketdotio,
   SiBootstrap,
+  SiExpress,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -35,6 +36,7 @@ const skills = [
   { name: "WebSocket", icon: <SiSocketdotio color="#010101" /> },
   { name: "VS Code", icon: <VscVscodeInsiders color="#3178c6" /> },
   { name: "Bootstrap", icon: <SiBootstrap color="#7952b3" /> },
+  { name: "Express", icon: <SiExpress color="#3178c6" /> },
 ];
 
 const containerVariants = {

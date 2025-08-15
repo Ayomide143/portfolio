@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import mummys from "../assets/mummys kitchen.png";
 import dawcon from "../assets/dawcon.jpg";
+import spinthewheel from "../assets/spinthewheel.png"; 
 
 const Projects = () => {
   const projects = [
@@ -18,6 +19,12 @@ const Projects = () => {
       description:
         "An Ottawa-based construction company who sought and obtained a professional, robust website to effectively showcase their identity and services.",
       projectLink: "https://dawcon.ca",
+    },
+    {
+      imageUrl: spinthewheel, 
+      title: "Spin the Wheel",
+      description: "A fun interactive game where users can spin a virtual wheel.",
+      projectLink: "https://spinthewheel-mu.vercel.app/",
     },
   ];
 
@@ -65,7 +72,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="button-animated">Visit Project</button>
+                  <button className="button-animated">Live Demo</button>
                 </a>
               </div>
             </div>

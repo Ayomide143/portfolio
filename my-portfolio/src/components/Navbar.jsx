@@ -31,7 +31,14 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
         </ul>
-        <button className="contact-btn button-animated">Get in Touch</button>
+        <a
+          href="https://github.com/Ayomide143"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-btn button-animated"
+        >
+          Get in Touch
+        </a>
 
         <div className="menu-icon" onClick={() => setIsOpen(true)}>
           <FaBars />
@@ -72,7 +79,15 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <button className="button-animated">Get in Touch</button>
+                <a
+                  href="https://github.com/Ayomide143"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-animated"
+                  style={{ display: "inline-block", marginTop: "1rem" }}
+                >
+                  Get in Touch
+                </a>
               </li>
             </ul>
           </motion.aside>
